@@ -62,7 +62,7 @@ class YourTranslationLoader implements TranslationLoaderInterface
 en.php:
 ```php
 <?php return [
-    'language_tag' => 'en-US'
+    'language_tag' => 'en-US',
     'user' => [
         'profile' => [
             'greeting' => 'Welcome, %s!',
