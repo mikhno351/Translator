@@ -172,7 +172,7 @@ final class Translator implements TranslatorInterface
         if (count($parameters) !== 1) {
             return false;
         }
-        $first = $parameters[0];
+        $first = @$parameters[0];
         return is_array($first) === true && $this->isAssocArray($first) === true;
     }
 
