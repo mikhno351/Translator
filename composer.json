@@ -1,0 +1,24 @@
+{
+  "name": "ket-php/translator",
+  "description": "Simple PHP translator",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "KetPHP\\Translator\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Alexander Mikhno",
+      "email": "mikhno351@yandex.com"
+    }
+  ],
+  "require": {
+    "php": "^8.1",
+    "symfony/filesystem": "^6.4"
+  },
+  "require-dev": {
+    "symfony/var-dumper": "^6.4"
+  }
+}
